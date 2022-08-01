@@ -1,0 +1,44 @@
+.productName,
+.productPrice {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.productName {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ProductContainer {
+    border: 0;
+    max-width: 320px;
+    /* border: 2px; */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 100%;
+    color: lightslategray;
+
+}
+
+.ProductContainer > div {
+    padding: 0 10px;
+}
+
+.ProductContainer > img {
+    padding: 20px 10px;
+    max-width: 300px;
+}
+
+.likes
+ {
+    display: flex;
+    justify-content: space-between;
+    color: crimson;
+    
+}
+
+.likes > i{
+    padding: 10px;
+}
