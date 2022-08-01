@@ -13,7 +13,7 @@ const Product = ({ imgSrc, productTitle, productDescription, productPrice }) => 
                 <p className='productPrice'>Rs: {productPrice}</p>
                 <i class="fa-solid fa-thumbs-up"></i>
             </div>
-             </div>
+        </div>
     )
 }
 
